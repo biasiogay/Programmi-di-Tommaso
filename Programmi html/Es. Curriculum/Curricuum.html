@@ -1,30 +1,80 @@
+<!DOCTYPE html>
 <html>
- 
+
 <head>
-    <h1>Curriculum di Tommaso</h1>
+    <meta charset="UTF-8">
+    <title>Curriculum di Tommaso</title>
+    <style>
+        body {
+            background-color: rgb(255, 145, 0);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .full {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .left {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        h2 {
+            background-color: rgb(255, 238, 0);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(255, 238, 0)qua;
+        }
+    </style>
 </head>
- 
+
 <body>
     <div class="full">
         <div class="left">
             <div class="image">
-                <img src=""
-                     alt="gfg-logo"
-                     style="width:100px;height:100px;">
+                <img src="https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-person-thinking-vector-png-image_6913463.png"
+                     alt="gfg-logo">
             </div>
             <div class="Contatti">
                 <h2>Contatti</h2>
-                <p><b>Email:</b>tommasopietrobon@gmail.com</p>
-                <p><b>Telefono:</b>3885378634</p>
+                <p><b>Email:</b> tommasopietrobon@gmail.com</p>
+                <p><b>Telefono:</b> 3885378634</p>
             </div>
-            <div class="Abilità">
-                <h2>Abilità</h2>
+            <div class="Presentazione">
+                <h2>Presentazione</h2>
                 <ul>
-                    <li><b>Programming Languages : 
-                      Python, Java, C++</b></li>
-                    <li><b>Frontend : HTML5, CSS3, 
-                      JavaScript, React</b></li>
-                    <li><b>Backend : Node.js</b></li>
+                    <li><b>Punti di forza : cooperativo, creativo, determinato</b></li>
+                    <li><b>Punti di debolezza: permaloso</b></li>
                 </ul>
             </div>
             <div class="Lingue">
@@ -34,82 +84,66 @@
                     <li>Inglese</li>
                 </ul>
             </div>
-            <div class="Hobbi">
-                <h2>Hobbi</h2>
+            <div class="Hobbies">
+                <h2>Hobbies</h2>
                 <ul>
                     <li>Palestra</li>
                     <li>Nuoto</li>
+                    <li>Disegno</li>
                 </ul>
             </div>
-        </div>
-        <div class="right">
-            <div class="name">
-                <h1>GeeksforGeeks</h1>
-            </div>
-            <div class="title">
-                <p>Web Developer</p>
-            </div>
-            <div class="Summary">
-                <h2>Summary</h2>
-                <p>To secure a challenging position in a 
-                  reputable organization
-                    to expand my learning knowledge and skill
-                </p>
-            </div>
-            <div class="Experience">
-                <h2>Experience</h2>
-                <h3>Abc webdev pvt ltd - Senior Web Developer</h3>
-                <p>January 2022 to Present</p>
+            <div class="Esperienze lavorative">
+                <h2>Esperienze lavorative</h2>
                 <ul>
-                    <li>Actively engaged in web creative 
-                      design and development.</li>
-                    <li>Designing project & planning</li>
-                </ul>
-                <h3>Xyz webdev pvt ltd - junior web developer</h3>
-                <p>August 2021 to December 2021</p>
-                <ul>
-                    <li>Actively engaged in web creative 
-                      design and development.</li>
-                    <li>Designing project & planning</li>
-                    <li>Working on designing</li>
+                    <li>
+                        <h3>Muratore</h3>
+                        <p>Giugno-Agosto 2023</p>
+                        <ul>
+                            <li>Costruzione muri</li>
+                            <li>Smantellamento case</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Trader</h3>
+                        <p>2022-2023</p>
+                        <ul>
+                            <li>Analisi grafici</li>
+                            <li>Gestione del denaro</li>
+                            <li>Valutazione del rischio</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            <div class="Education">
-                <h2>Education</h2>
+            <div class="Educazione">
+                <h2>Educazione</h2>
                 <table>
                     <tr>
-                        <th>University/college  </th>
-                        <th>Passing year  </th>
-                        <th>percentage/cgpa</th>
+                        <th>Scuola</th>
+                        <th>Anni di frequenza</th>
+                        <th>Media voti</th>
                     </tr>
                     <tr>
-                        <td>xyz</td>
-                        <td>2020</td>
-                        <td>8.9</td>
+                        <td>Diego Valeri</td>
+                        <td>3</td>
+                        <td>6.0</td>
                     </tr>
                     <tr>
-                        <td>pqr</td>
-                        <td>2018</td>
-                        <td>89%</td>
+                        <td>Liceo TLC</td>
+                        <td>4</td>
+                        <td>4.5</td>
                     </tr>
                 </table>
-            </div>
-            <div class="project">
-                <ul>
-                    <li>
-                        <h2>Project1</h2>
-                        <p>This project is based on html 
-                          & used React</p>
-                    </li>
-                    <li>
-                        <h2>Project2</h2>
-                        <p>This project is based on html 
-                          & used React</p>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
 </body>
- 
+
 </html>
+
+
+
+
+
+
+
+
